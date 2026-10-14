@@ -10,3 +10,6 @@ venv/
 *.log
 *.docx
 PROBLEM_STATEMENT.docx
+.coverage
+.coverage.*
+htmlcov/

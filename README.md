@@ -87,5 +87,5 @@ python -m pytest tests/ -v
 
 ## Verification & Testing Notes
 
-- All 32 automated tests (unit tests, API contract validations, concurrency race simulations, and live MongoDB integration tests) pass with 100% success.
+- All 49 automated tests (unit tests, API contract validations, concurrency race simulations, business rule boundary tests, and live MongoDB integration tests) pass with 100% success and 98% code coverage.
 - Indexes are explicitly created at startup to ensure `IXSCAN` and prevent unintended `COLLSCAN`.
